@@ -1,0 +1,19 @@
+{
+  "name": "soulful-shack-assets",
+  "homepage": "https://github.com/Richardinho/soulful-shack-assets",
+  "authors": [
+    "Richard Hunter <richard@richardhunter.co.uk>"
+  ],
+  "version" : "0.0.1",
+  "description": "CSS and other non JS assets for soulful shack variants",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
