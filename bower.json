@@ -4,9 +4,10 @@
   "authors": [
     "Richard Hunter <richard@richardhunter.co.uk>"
   ],
-  "version" : "0.0.1",
+
+  "version" : "0.0.2",
   "description": "CSS and other non JS assets for soulful shack variants",
-  "main": "",
+  "main": "index.html",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
