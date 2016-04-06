@@ -5,7 +5,7 @@
     "Richard Hunter <richard@richardhunter.co.uk>"
   ],
 
-  "version" : "0.0.4",
+  "version" : "0.0.5",
   "description": "CSS and other non JS assets for soulful shack variants",
   "main": "index.html",
   "moduleType": [],
