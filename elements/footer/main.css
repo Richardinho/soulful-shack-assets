@@ -4,4 +4,20 @@
 	font-size : 1;
 	color : grey;
 	font-family : ubuntu;
+	position : relative;
+}
+.footer:before,
+.footer:after {
+	content : '';
+	background : inherit;
+	height : 100%;
+	top : 0;
+	position : absolute;
+	width : calc(50vw - 50%);
+}
+.footer:before {
+	right : 100%;
+}
+.footer:after {
+	left : 100%;
 }
