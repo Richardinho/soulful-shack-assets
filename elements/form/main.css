@@ -1,3 +1,20 @@
+h2, h3 {
+	font-weight : normal;
+	line-height : 1;
+	margin : 0;
+}
+
+h2 {
+	padding : .2em 0;
+	font-size : 1.4em;
+	font-weight : bold;
+}
+
+h3{
+	padding : .4em 0;
+	font-size : 1.2em;
+}
+
 ul, li {
 	list-style : none;
 	padding : 0;
@@ -12,24 +29,16 @@ ul, li {
 	background : lightgray;
 }
 
-.menu h2 {
-	font-size : 1.4em;
-	padding : .2em 0;
-	font-weight : normal;
-	line-height : 1;
-	margin : 0;
-}
-.menu h3 {
-	margin : 0;
-	line-height : 1;
-	font-weight : normal;
-	font-size : 1.4em;
+.styled-radio-block{
+	display : inline-block;
 	padding : .4em 0;
 }
 
-.styled-radio-block > * {
+.styled-radio-block > input,
+.styled-radio-block > label {
 	vertical-align : middle;
 }
+
 .styled-radio-block .styled-radio {
 	background : white;
 	width : 1.2em;
@@ -52,15 +61,11 @@ ul, li {
 	text-align : center;
 }
 
-.styled-radio-block{
-	display : inline-block;
-	padding : .4em 0;
-}
-
 .range-filters {
 	padding : .4em  0;
 }
-.range-filters > * {
+.range-filters > label,
+.range-filters > input {
 	display : inline-block;
 	vertical-align : middle;
 }
