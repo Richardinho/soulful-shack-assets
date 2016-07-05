@@ -1,0 +1,22 @@
+.container {
+	width : 1000px;
+	margin : auto;
+}
+
+.container .aside {
+	float : left;
+	width : 30%;
+}
+
+.container .content {
+	float : left;
+	width : 70%;
+}
+
+.container .results-container li{
+	margin-bottom : 1px;
+}
+
+.container .footer {
+	clear : both;
+}
